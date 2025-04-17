@@ -4,6 +4,7 @@
   "type": "module", 
   "main": "index.js",
   "scripts": {
+    "starCode": "node --watch ./starCode.js",
     "countSmileys": "node --watch ./countSmileys.js",
     "noZeros": "node --watch ./noZeros.js",
     "reverseWords": "node --watch ./reverseWords.js",
