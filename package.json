@@ -4,6 +4,7 @@
   "type": "module", 
   "main": "index.js",
   "scripts": {
+    "whoLikesIt": "node --watch ./whoLikesIt.js",
     "removeTheMinimum": "node --watch ./removeTheMinimum.js",
     "friendOrFoe": "node --watch ./friendOrFoe.js",
     "tripleTrouble": "node --watch ./tripleTrouble.js",
