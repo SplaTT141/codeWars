@@ -4,6 +4,8 @@
   "type": "module", 
   "main": "index.js",
   "scripts": {
+    "removeTheMinimum": "node --watch ./removeTheMinimum.js",
+    "friendOrFoe": "node --watch ./friendOrFoe.js",
     "tripleTrouble": "node --watch ./tripleTrouble.js",
     "hero": "node --watch ./hero.js",
     "starCode": "node --watch ./starCode.js",

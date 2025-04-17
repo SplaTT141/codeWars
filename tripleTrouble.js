@@ -31,5 +31,3 @@ console.log(sum);
 
 const sum2 = marks.map((item, index, arr) => item * index * arr.length);
 console.log(sum2)
-
-
