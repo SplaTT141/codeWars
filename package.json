@@ -4,6 +4,8 @@
   "type": "module", 
   "main": "index.js",
   "scripts": {
+    "tripleTrouble": "node --watch ./tripleTrouble.js",
+    "hero": "node --watch ./hero.js",
     "starCode": "node --watch ./starCode.js",
     "countSmileys": "node --watch ./countSmileys.js",
     "noZeros": "node --watch ./noZeros.js",
