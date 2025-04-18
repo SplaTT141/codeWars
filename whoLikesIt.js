@@ -35,7 +35,7 @@ function likes2(names) {
     }
 }
 //
-function likes(names) {
+function likes3(names) {
     var templates = [
         'no one likes this',
         '{name} likes this',

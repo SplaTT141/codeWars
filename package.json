@@ -4,6 +4,8 @@
   "type": "module", 
   "main": "index.js",
   "scripts": {
+    "domainExtract": "node --watch ./domainExtract.js",
+    "directionsReduction": "node --watch ./directionsReduction.js",
     "whoLikesIt": "node --watch ./whoLikesIt.js",
     "removeTheMinimum": "node --watch ./removeTheMinimum.js",
     "friendOrFoe": "node --watch ./friendOrFoe.js",
