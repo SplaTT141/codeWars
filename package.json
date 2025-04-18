@@ -4,6 +4,7 @@
   "type": "module", 
   "main": "index.js",
   "scripts": {
+    "everyDigitSquare": "node --watch ./everyDigitSquare.js",
     "highestScoringWord": "node --watch ./highestScoringWord.js",
     "shortestWord": "node --watch ./shortestWord.js",
     "domainExtract": "node --watch ./domainExtract.js",
