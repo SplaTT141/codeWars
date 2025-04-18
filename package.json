@@ -4,6 +4,7 @@
   "type": "module", 
   "main": "index.js",
   "scripts": {
+    "shortestWord": "node --watch ./shortestWord.js",
     "domainExtract": "node --watch ./domainExtract.js",
     "directionsReduction": "node --watch ./directionsReduction.js",
     "whoLikesIt": "node --watch ./whoLikesIt.js",
