@@ -4,8 +4,9 @@
   "type": "module", 
   "main": "index.js",
   "scripts": {
-    "numberCount": "node --watch ./numberCount.js",
+    "opositeString": "node --watch ./opositeString.js",
     "replaceNums": "node --watch ./replaceNums.js",
+    "numberCount": "node --watch ./numberCount.js",
     "reverseLetter": "node --watch ./reverseLetter.js",
     "upperCaseLetterIndex": "node --watch ./upperCaseLetterIndex.js",
     "everyDigitSquare": "node --watch ./everyDigitSquare.js",
