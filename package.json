@@ -4,6 +4,7 @@
   "type": "module", 
   "main": "index.js",
   "scripts": {
+    "populationGrowth": "node --watch ./populationGrowth.js",
     "opositeString": "node --watch ./opositeString.js",
     "replaceNums": "node --watch ./replaceNums.js",
     "numberCount": "node --watch ./numberCount.js",

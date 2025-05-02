@@ -35,6 +35,17 @@ function isOpposite2(s1, s2) {
     return true;
 
 }
+//
+function isOpposite3(s1, s2) {
+    return s1.split('')
+        .map(c => c === c.toUpperCase() ? c.toLowerCase() : c.toUpperCase())
+        .join('') === s2 && s1 !== '';
+
+}
+//
+function isOpposite4(s1, s2) {
+    return s1 != '' && s1 == s2.replace(/./g, ch => ch['to' + (ch <= 'Z' ? 'Lower' : 'Upper') + 'Case']())
+}
 
 console.log(isOpposite("ab", "AB"), true);
 console.log(isOpposite("aB", "Ab"), true);
