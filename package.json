@@ -4,6 +4,7 @@
   "type": "module", 
   "main": "index.js",
   "scripts": {
+    "notLikeOthersString": "node --watch ./notLikeOthersString.js",
     "notLikeOthers": "node --watch ./notLikeOthers.js",
     "arrayToBinary": "node --watch ./arrayToBinary.js",
     "arrayIf": "node --watch ./arrayIf.js",
